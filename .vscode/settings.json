@@ -1,0 +1,5 @@
+{
+    "dbt.perspectiveTheme": "Vintage",
+    "dbt.enableNewLineagePanel": true,
+    "dbt.queryLimit": 10
+}

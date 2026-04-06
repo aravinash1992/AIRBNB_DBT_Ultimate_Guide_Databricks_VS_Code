@@ -1,0 +1,19 @@
+avinash_dbt_tutorial:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-274d0395-7609.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/3a1305ec0e93a188
+      schema: default
+      threads: 1
+      token: dapi70aba724f4f9916a067129fdd7b4097f
+      type: databricks
+    prod:
+      catalog: dbt_tutorial_prod
+      host: dbc-274d0395-7609.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/3a1305ec0e93a188
+      schema: default
+      threads: 1
+      token: dapi70aba724f4f9916a067129fdd7b4097f
+      type: databricks
+  target: dev

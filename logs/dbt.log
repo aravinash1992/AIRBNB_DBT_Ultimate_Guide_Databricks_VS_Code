@@ -1,0 +1,169 @@
+[0m15:34:47.080368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001305652DFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001305652EFF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001305652EDB0>]}
+
+
+============================== 15:34:47.175081 | 8d793f04-7361-4a98-8c1b-bfc1edf90692 ==============================
+[0m15:34:47.175081 [info ] [MainThread]: Running with dbt=1.11.5
+[0m15:34:47.175081 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\arajak\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:34:47.862744 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\arajak\.dbt
+[0m15:35:59.947812 [debug] [MainThread]: Starter project path: C:\Users\arajak\WCC_VC_AVINASH\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:36:00.547409 [info ] [MainThread]: 
+Your new dbt project "avinash_dbt_tutorial" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:36:00.548409 [info ] [MainThread]: Setting up your profile.
+[0m15:36:57.256680 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m15:36:57.256680 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m15:36:57.256680 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m15:44:56.373485 [info ] [MainThread]: Profile avinash_dbt_tutorial written to C:\Users\arajak\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:44:56.377175 [debug] [MainThread]: Command `dbt init` succeeded at 15:44:56.376838 after 609.55 seconds
+[0m15:44:56.377848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013056ADAA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001306AA9D1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001306ABC48F0>]}
+[0m15:44:56.377848 [debug] [MainThread]: Flushing usage events
+[0m15:44:57.618060 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:46:20.705647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013F5C0E6FF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013F5BF56270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013F5A0AEE70>]}
+
+
+============================== 15:46:20.739461 | c4ae0dba-1a92-467e-af06-40260982b967 ==============================
+[0m15:46:20.739461 [info ] [MainThread]: Running with dbt=1.11.5
+[0m15:46:20.739461 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\arajak\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:46:20.975481 [info ] [MainThread]: dbt version: 1.11.5
+[0m15:46:20.975481 [info ] [MainThread]: python version: 3.12.10
+[0m15:46:20.975481 [info ] [MainThread]: python path: C:\Users\arajak\WCC_VC_AVINASH\.venv\Scripts\python.exe
+[0m15:46:20.975481 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m15:46:25.237954 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m15:46:25.237954 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m15:46:25.237954 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m15:46:29.394887 [info ] [MainThread]: Using profiles dir at C:\Users\arajak\.dbt
+[0m15:46:29.394887 [info ] [MainThread]: Using profiles.yml file at C:\Users\arajak\.dbt\profiles.yml
+[0m15:46:29.394887 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\arajak\WCC_VC_AVINASH\dbt_project.yml
+[0m15:46:29.394887 [info ] [MainThread]: adapter type: databricks
+[0m15:46:29.409554 [info ] [MainThread]: adapter version: 1.10.9
+[0m15:46:29.409554 [info ] [MainThread]: Configuration:
+[0m15:46:29.409554 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:46:29.409554 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:46:29.409554 [info ] [MainThread]: Required dependencies:
+[0m15:46:29.409554 [debug] [MainThread]: Executing "git --help"
+[0m15:46:29.511269 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:46:29.511269 [debug] [MainThread]: STDERR: "b''"
+[0m15:46:29.511269 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:46:29.511269 [info ] [MainThread]: Connection:
+[0m15:46:29.511269 [info ] [MainThread]:   host: dbc-274d0395-7609.cloud.databricks.com
+[0m15:46:29.511269 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/3a1305ec0e93a188
+[0m15:46:29.511269 [info ] [MainThread]:   catalog: dbt_tutorial_dev
+[0m15:46:29.511269 [info ] [MainThread]:   schema: default
+[0m15:46:29.511269 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m15:46:30.506058 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m15:46:30.506058 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m15:46:30.506058 [debug] [MainThread]: Using databricks connection "debug"
+[0m15:46:30.506058 [debug] [MainThread]: On debug: select 1 as id
+[0m15:46:30.506058 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:46:32.647025 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f10b20-907a-1398-80d9-7273d1f1deff) - Created
+[0m15:46:33.155214 [debug] [MainThread]: SQL status: OK in 2.650 seconds
+[0m15:46:33.158738 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f10b20-907a-1398-80d9-7273d1f1deff, command-id=01f10b20-9129-1b27-8406-f6882a5530e2) - Closing
+[0m15:46:33.158738 [debug] [MainThread]: On debug: Close
+[0m15:46:33.158738 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f10b20-907a-1398-80d9-7273d1f1deff) - Closing
+[0m15:46:33.419005 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m15:46:33.419005 [info ] [MainThread]: [31m1 check failed:[0m
+[0m15:46:33.419005 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\arajak\WCC_VC_AVINASH\dbt_project.yml> not found
+
+[0m15:46:33.428948 [debug] [MainThread]: Command `dbt debug` failed at 15:46:33.428948 after 13.23 seconds
+[0m15:46:33.428948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013F6FE04E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013F5C994500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013F5C677FE0>]}
+[0m15:46:33.428948 [debug] [MainThread]: Flushing usage events
+[0m15:46:35.074424 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:36:02.098858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001762D7F6F60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001762D964740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001762D6CC080>]}
+
+
+============================== 21:36:02.120110 | b8722d2c-1b25-4252-9e1d-d6162df71949 ==============================
+[0m21:36:02.120110 [info ] [MainThread]: Running with dbt=1.11.5
+[0m21:36:02.120110 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\arajak\\.dbt', 'invocation_command': 'dbt compile', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:36:02.120110 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\arajak\WCC_VC_AVINASH\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:36:02.120110 [debug] [MainThread]: Command `dbt compile` failed at 21:36:02.120110 after 0.35 seconds
+[0m21:36:02.120110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001762D964740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001762CF56270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001762CF55640>]}
+[0m21:36:02.120110 [debug] [MainThread]: Flushing usage events
+[0m21:36:03.587864 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:47:26.503940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EAAE748D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EAB145FAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EAAF1E6E70>]}
+
+
+============================== 21:47:26.516842 | 1b16e1d0-64cc-48ce-93c6-c9b0d5569f61 ==============================
+[0m21:47:26.516842 [info ] [MainThread]: Running with dbt=1.11.5
+[0m21:47:26.516842 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\arajak\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:47:26.710637 [info ] [MainThread]: dbt version: 1.11.5
+[0m21:47:26.710637 [info ] [MainThread]: python version: 3.12.10
+[0m21:47:26.710637 [info ] [MainThread]: python path: C:\Users\arajak\WCC_VC_AVINASH\.venv\Scripts\python.exe
+[0m21:47:26.710637 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m21:47:32.637500 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m21:47:32.637500 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m21:47:32.644583 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m21:47:39.333925 [info ] [MainThread]: Using profiles dir at C:\Users\arajak\.dbt
+[0m21:47:39.335174 [info ] [MainThread]: Using profiles.yml file at C:\Users\arajak\.dbt\profiles.yml
+[0m21:47:39.335174 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\arajak\WCC_VC_AVINASH\dbt_project.yml
+[0m21:47:39.335174 [info ] [MainThread]: adapter type: databricks
+[0m21:47:39.335174 [info ] [MainThread]: adapter version: 1.10.9
+[0m21:47:39.335174 [info ] [MainThread]: Configuration:
+[0m21:47:39.335174 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:47:39.335174 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:47:39.335174 [info ] [MainThread]: Required dependencies:
+[0m21:47:39.335174 [debug] [MainThread]: Executing "git --help"
+[0m21:47:39.500092 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:47:39.501186 [debug] [MainThread]: STDERR: "b''"
+[0m21:47:39.502196 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:47:39.503155 [info ] [MainThread]: Connection:
+[0m21:47:39.503155 [info ] [MainThread]:   host: dbc-274d0395-7609.cloud.databricks.com
+[0m21:47:39.504132 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/3a1305ec0e93a188
+[0m21:47:39.505090 [info ] [MainThread]:   catalog: dbt_tutorial_dev
+[0m21:47:39.506084 [info ] [MainThread]:   schema: default
+[0m21:47:39.507083 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m21:47:42.345489 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m21:47:42.347503 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m21:47:42.347503 [debug] [MainThread]: Using databricks connection "debug"
+[0m21:47:42.347503 [debug] [MainThread]: On debug: select 1 as id
+[0m21:47:42.347503 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:47:45.149348 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f10b53-05f6-191b-b7c4-d86b424addde) - Created
+[0m21:47:52.989390 [debug] [MainThread]: SQL status: OK in 10.640 seconds
+[0m21:47:52.991406 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f10b53-05f6-191b-b7c4-d86b424addde, command-id=01f10b53-06df-1f14-814e-7847c38f8f4b) - Closing
+[0m21:47:53.408278 [debug] [MainThread]: On debug: Close
+[0m21:47:53.408278 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f10b53-05f6-191b-b7c4-d86b424addde) - Closing
+[0m21:47:53.745588 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:47:53.745588 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:47:53.745588 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\arajak\WCC_VC_AVINASH\dbt_project.yml> not found
+
+[0m21:47:53.745588 [debug] [MainThread]: Command `dbt debug` failed at 21:47:53.745588 after 27.54 seconds
+[0m21:47:53.745588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EAAEAF66C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EAB12A6630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EAB12A6060>]}
+[0m21:47:53.756421 [debug] [MainThread]: Flushing usage events
+[0m21:47:55.166350 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:00:29.177931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192AE58FDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192AEA826F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192AEB05550>]}
+
+
+============================== 23:00:29.200963 | b31352fc-6a72-45c7-b9bb-59972bbf536c ==============================
+[0m23:00:29.200963 [info ] [MainThread]: Running with dbt=1.10.0
+[0m23:00:29.200963 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\arajak\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt clean', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:00:29.200963 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\arajak\WCC_VC_AVINASH\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:00:29.200963 [debug] [MainThread]: Command `dbt clean` failed at 23:00:29.200963 after 0.30 seconds
+[0m23:00:29.200963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192AEF2C950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192AF035340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000192AF035280>]}
+[0m23:00:29.200963 [debug] [MainThread]: Flushing usage events
+[0m23:00:30.668167 [debug] [MainThread]: An error was encountered while trying to flush usage events
